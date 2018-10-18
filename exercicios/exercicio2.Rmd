@@ -1,0 +1,39 @@
+---
+title: "Exercício de Aula"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+* Construa um vetor com elementos do tipo lógico.
+
+* Construa um vetor chamado carros com três marcas de carros.
+
+
+* O que você acredita que será o resultado do seguinte comando:
+
+```{r,eval=FALSE}
+carros[4] <- "Volvo"
+```
+
+
+* Copie os seguintes comandos:
+```{r}
+set.seed(123)
+vetor1 <- rpois(6,300)
+```
+
+* Extraia em ordem decrescente os 3 maiores elementos do vetor1. (Não redigite os valores, faça a extração do vetor1) 
+
+* Construa uma copia ordenada de forma crescente do vetor1 chamada vetor2. (Não redigite os valores, faça a extração do vetor1) 
+
+* Qual será o resultado do seguinte comando:
+```{r,eval=FALSE}
+vetor1[c(T,F)]
+```
+
+* Verifique e descreva o que ocorreu.
+
+

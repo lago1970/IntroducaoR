@@ -1,0 +1,40 @@
+---
+title: "Exercício de Aula"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Nesse exercício vamos considerar uma planilha para registrar os dados de uma turma de alunos. 
+
+* Crie um data.frame com dados fictícios de 6 alunos. Devem ser registrados os nomes dos alunos e para cada um notas referentes a PROVA1, PROVA2 e PROVA3.
+
+* Calcule a média de desempenho dos alunos da turma para as 3 diferentes provas.
+
+* Supondo que as notas finais sejam as médias ponderadas das 3 provas de forma que a média seja dada por: $nota=\frac{2P1+3P2+3P3}{8}$, calcule a nota final para cada aluno e adicione essas médias ao data.frame.
+
+* Adicione uma nova coluna ao data.frme para indicar os alunos que foram aprovados, considerando que a nota mínima para aprovação seja 5.
+
+* Apresente apenas as informações completas dos alunos reprovados.
+
+\newpage
+
+
+Considere o dataframe disponível no R _mtcars_
+
+```{r}
+head(mtcars)
+```
+
+* Ordene as informações em ordem decrescente pela variável _mpg_. 
+
+* Calcule a média de peso _wt_ dos carros que tem rendimento $mpg>22$.
+
+* Quantos carros possuem 3 marchas _gear_?
+
+* Suponha que serão premiados os carros conforme seu rendimento, de forma que o carro com maior _mpg_ deve ser o primeiro lugar e o carro com menor _mpg_ deve ser o último lugar na premiação. Crie um novo data.frame com nome _completo_ com as informações disponíveis adicionadas da coluna _premio_.
+
+* Quais foram os prêmios recebidos pelos carros automáticos $(am=0)$ com 6 cilindros _cyl_?
+

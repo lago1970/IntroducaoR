@@ -1,0 +1,33 @@
+---
+title: "Exercício de Aula"
+author: "Análise de dados usando R"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+Crie um documento Rmarkdown com os seguintes elementos:
+
+* Texto corrido explicando que o documento se trata de um exercício para o curso de análise de dados usando R
+* Considerando os seguintes valores do gasto com café em um setor apresente as contas e resultado para a média de gasto mensal.
+```{r,echo=FALSE}
+set.seed(123)
+cafe <- round(rnorm(6,200,30),2)
+names(cafe) <- c("JAN","FEV","MAR","ABR","MAI","JUN")
+cafe
+```
+* Suponha que o pagamento do mês de Junho será feito com atraso e por isso terá uma multa de 20%. Apresente um parágrafo explicando esse fato e apresentando no texto do parágrafo o valor a ser pago com a multa(em seu parágrafo a palavra multa deve aparecer em __negrito__).
+* Apresente uma lista com os nomes das disciplinas já cursadas na especialização. Essa lista deve ser ordenada pela preferência das disciplinas que mais gostou. (Consulte o cheet sheet para construir a lista)
+
+### Itens desafio
+ 
+ 
+* Insira um link para a homepage principal de seu orgão de trabalho.
+    + [https://github.com/cursoRunb/cursoENAP2018](https://github.com/cursoRunb/cursoENAP2018)
+
+* Insira uma imagem referente ao seu orgão de trabalho. 
+![Imagem ENAP](imagemEnap.png){width=75px}
